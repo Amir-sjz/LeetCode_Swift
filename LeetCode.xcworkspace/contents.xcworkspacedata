@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LeetCode001/LeetCode001.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode004/LeetCode004.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode015/LeetCode015.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode016/LeetCode016.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode033/LeetCode033.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode034/LeetCode034.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode041/LeetCode041.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode042/LeetCode042.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode053/LeetCode053.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode054/LeetCode054.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode056/LeetCode056.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode059/LeetCode059.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode062/LeetCode062.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode075/LeetCode075.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode078/LeetCode078.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode088/LeetCode088.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode105/LeetCode105.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode121/LeetCode121.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode189/LeetCode189.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode283/LeetCode283.xcodeproj">
+   </FileRef>
+</Workspace>
