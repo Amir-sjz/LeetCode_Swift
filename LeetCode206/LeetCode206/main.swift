@@ -35,6 +35,30 @@ node3.next = node4
  
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
+        var current = head
+        var p: ListNode? = nil
+        while current != nil {
+            let next = current?.next
+            current?.next = p
+            p = current
+            current = next
+        }
+        return p
+    }
+    
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+        var current = head
+        var p: ListNode? = nil
+        while current != nil {
+            let next = current?.next
+            current?.next = p
+            p = current
+            current = next
+        }
+        return p
+    }
+    
+    func reverseList1(_ head: ListNode?) -> ListNode? {
         var p2: ListNode? = nil
         var current = head
         

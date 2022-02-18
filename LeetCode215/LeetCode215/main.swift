@@ -18,6 +18,60 @@ print("Hello, World!")
 
 class Solution {
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
+        guard k <= nums.count else {
+            return -Int(INT_MAX)
+        }
+        
+        var arr: [Int] = []
+        
+        for x in nums {
+            let count = arr.count>k ? k :arr.count
+            if count == 0 {
+                arr.append(x)
+            } else {
+                for i in (0..<arr.count).reversed() {
+                    if x<arr[i] {
+                        arr.insert(x, at: i+1)
+                        break
+                    }
+                }
+                if x >= arr[0] {
+                    arr.insert(x, at: 0)
+                }
+            }
+        }
+        
+        
+        return arr[k-1]
+    }
+    
+    func findKthLargest2(_ nums: [Int], _ k: Int) -> Int {
+        guard k<=nums.count else {
+            return Int(-INT_MAX)
+        }
+        var arr: [Int] = []
+        for idx in nums {
+            let count = arr.count>k ? k : arr.count
+            if count == 0 {
+                arr.append(nums[0])
+            } else {
+                for i in (0..<count).reversed() {
+                    if arr[i] > idx {
+                        arr.insert(idx, at: i+1)
+                        break
+                    }
+                }
+                if idx >= arr[0] {
+                    arr.insert(idx, at: 0)
+                }
+            }
+            
+        }
+        
+        
+        return arr[k-1]
+    }
+    func findKthLargest1(_ nums: [Int], _ k: Int) -> Int {
         guard k<=nums.count else {
             return Int(-INT_MAX)
         }

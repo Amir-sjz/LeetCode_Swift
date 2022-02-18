@@ -11,6 +11,89 @@ print("Hello, World!")
 
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
+        var maxLength: Int = 0
+        var x: Int = 0
+        var dict: [Character:Int] = [:]
+        
+        for (i, char) in s.enumerated() {
+            if let pre = dict[char], pre>=x {
+                if maxLength<i-x {
+                    maxLength = i-x
+                }
+                x = pre+1
+            }
+            dict[char] = i
+        }
+        
+        if s.count-x > maxLength {
+            maxLength = s.count-x
+        }
+        
+        return maxLength
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    func lengthOfLongestSubstring2(_ s: String) -> Int {
+        var length: Int = 0
+        var i: Int = 0 // 左边的坐标
+        var dict: [Character: Int] = [:]
+        
+        for (j, idx) in s.enumerated() {
+            if let pre = dict[idx], pre>=i {
+                if j-i > length {
+                    length = j-i
+                }
+                i = pre+1
+            }
+            dict[idx] = j
+        }
+        
+        if length < s.count-i {
+            length = s.count-i
+        }
+        
+        
+        return length
+    }
+    
+    
+    func lengthOfLongestSubstring1(_ s: String) -> Int {
         var length: Int = 0
         var x: Int = 0 // 取的字符串最左边的坐标
         var dict: [Character: Int] = [:]
