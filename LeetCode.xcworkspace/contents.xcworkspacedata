@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LeetCode232/LeetCode232.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode001/LeetCode001.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode003/LeetCode003.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode004/LeetCode004.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LeetCode021/LeetCode021.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LeetCode416/LeetCode416.xcodeproj">
    </FileRef>
    <FileRef
@@ -14,16 +29,7 @@
       location = "group:LeetCode215/LeetCode215.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LeetCode003/LeetCode003.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:LeetCode206/LeetCode206.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LeetCode001/LeetCode001.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LeetCode004/LeetCode004.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LeetCode015/LeetCode015.xcodeproj">
