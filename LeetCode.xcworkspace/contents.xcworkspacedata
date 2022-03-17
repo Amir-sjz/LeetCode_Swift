@@ -98,9 +98,6 @@
       location = "group:LeetCode160/LeetCode160.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:LeetCode189/LeetCode189.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:LeetCode206/LeetCode206.xcodeproj">
    </FileRef>
    <FileRef
@@ -114,9 +111,6 @@
    </FileRef>
    <FileRef
       location = "group:LeetCode234/LeetCode234.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:LeetCode283/LeetCode283.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LeetCode415/LeetCode415.xcodeproj">
